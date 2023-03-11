@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  content: "";
+  display: block;
+}
+
+img, picture, video, iframe, figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+form, input, textarea, select, button, label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--tipo-principal);
+  color: var(--negro);
+}
+
+body {
+  font-size: 14px;
+}
+
+h1, h2, p, a {
+  font-family: "Raleway", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  background-color: hsl(217, 28%, 15%);
+  width: 100%;
+  padding: 1.5rem 0;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .nav__figure {
+  width: 80px;
+}
+.header .nav .nav__ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: -2rem;
+}
+.header .nav .nav__ul .nav__li {
+  font-size: 14px;
+  color: white;
+}
+.header .hero__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+.header .hero__section .hero__figure {
+  width: 302.5px;
+}
+.header .hero__section .hero__h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  width: 93%;
+  margin-inline: auto;
+  margin-block: 2rem 1rem;
+}
+.header .hero__section .hero__p {
+  line-height: 1.5;
+  width: 77%;
+  margin-inline: auto;
+}
+.header .hero__section .hero__a {
+  background-color: hsl(176, 68%, 64%);
+  width: max-content;
+  margin-inline: auto;
+  padding: 1rem 5.25rem;
+  border-radius: 25px;
+  font-weight: 900;
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
