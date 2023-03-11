@@ -7,7 +7,7 @@
     "dev": "sass --watch ./scss/style.scss ./css/style.css"
   },
   "keywords": [],
-  "author": "",
+  "author": "Valentín Vera",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.58.3"
