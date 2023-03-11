@@ -1,0 +1,64 @@
+@import "../abstracts/variables";
+
+.header {
+    background-color: map-get($map: $palette, $key: "intro-email-background");
+    width: 100%;
+    padding: 1.50rem 0;
+    // position: fixed;
+    // inset: 0;
+    // z-index: 10;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav__figure {
+            width: 80px;
+        }
+        .nav__ul {
+            display: flex;
+            gap: 2rem;
+            margin-right: -2rem;
+            .nav__li {
+                font-size: 14px;
+                color: white;
+            }
+        }
+    }
+
+    .hero__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+
+        .hero__figure {
+            width: 302.5px;
+        }
+
+        .hero__h1 {
+            font-size: 1.50rem;
+            font-weight: 900;
+            line-height: 1.5;
+            width: 93%;
+            margin-inline: auto;
+            margin-block: 2rem 1rem;
+        }
+
+        .hero__p {
+            line-height: 1.5;
+            width: 77%;
+            margin-inline: auto;
+        }
+
+        .hero__a {
+            background-color: map-get($map: $palette, $key: "cyan");
+            width: max-content;
+            margin-inline: auto;
+            padding: 1rem 5.25rem;
+            border-radius: 25px;
+            font-weight: 900;
+            margin-top: 2rem;
+        }
+    }
+}
