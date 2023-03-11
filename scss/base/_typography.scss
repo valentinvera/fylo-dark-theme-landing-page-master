@@ -1,0 +1,10 @@
+@import "../abstracts/variables";
+
+body {
+    font-size: $font-size;
+}
+
+h1, h2, p, a {
+    font-family: $font-body;
+    color: map-get($map: $palette, $key: "white");
+}
